@@ -1,0 +1,10 @@
+query Nav($id: ID!) {
+  nav(id: $id) {
+    data {
+      id
+      attributes {
+        Item
+      }
+    }
+  }
+}

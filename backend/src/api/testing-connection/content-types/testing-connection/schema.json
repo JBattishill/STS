@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "testing_connections",
+  "info": {
+    "singularName": "testing-connection",
+    "pluralName": "testing-connections",
+    "displayName": "Testing connection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wdwdw": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+query Articles($id: ID!) {
+  article(id: $id) {
+    data {
+      id
+      attributes {
+        title
+        content
+        ingredients
+        method
+        image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+        publishedAt
+      }
+    }
+  }
+}
