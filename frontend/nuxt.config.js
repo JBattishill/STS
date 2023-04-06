@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Choose Nourish',
+    title: 'Sampling the Stars',
     htmlAttrs: {
       lang: 'en'
     },
@@ -13,7 +13,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Sacramento&display=swap'}
     ]
   },
 
